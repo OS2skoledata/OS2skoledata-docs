@@ -1,5 +1,5 @@
 ---
-title: sql
+title: SQL
 layout: default
 parent: Konfiguration
 nav_order: 6
