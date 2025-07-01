@@ -1,8 +1,12 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: OS2skoledata dokumentation
+description: Denne dokumentation har til formål at give et omfattende overblik over, hvordan man bruger, vedligeholder og fejlsøger OS2skoledata på en sikker og effektiv måde. Den skal klæde brugere, udviklere og administratorer på med den nødvendige viden til effektiv håndtering og langsigtet support.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://os2skoledata.github.io/OS2skoledata-docs/
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  github.com/os2skoledata: https://github.com/OS2skoledata/OS2skoledata
+  os2.eu/os2skoledata: https://www.os2.eu/os2skoledata
+
+plugins:
+  - jekyll-relative-links
