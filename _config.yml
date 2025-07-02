@@ -1,6 +1,7 @@
 title: OS2skoledata dokumentation
 description: Denne dokumentation har til formål at give et omfattende overblik over, hvordan man bruger, vedligeholder og fejlsøger OS2skoledata på en sikker og effektiv måde. Den skal klæde brugere, udviklere og administratorer på med den nødvendige viden til effektiv håndtering og langsigtet support.
 theme: just-the-docs
+color_scheme: wider
 
 url: https://os2skoledata.github.io/OS2skoledata-docs/
 
