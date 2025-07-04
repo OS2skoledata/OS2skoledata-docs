@@ -32,7 +32,7 @@ has_children: false
 | os2skoledata.email.host | E-mailserverens hostnavn. |     |
 | os2skoledata.deleteInstitutionPersonAfterMonths | Måneder før person slettes i databasen efter den ikke længere er i STIL. | 13  |
 | os2skoledata.deleteAuditLogsAfterMonths | Måneder før AuditLogs slettes i databasen. | 13  |
-| os2skoledata.filterOutGroupsWithFutureFromDate | Filtrér grupper fra med fremtidig startdato. | false |
+| os2skoledata.filterOutGroupsWithFutureFromDate | Filtrér grupper med level 0 fra med fremtidig startdato. Det er kun level 0, der filtreres fra, da det ellers vil give problemer ved årsrul | false |
 | os2skoledata.createGroupsXDaysBeforeFromDate | Dage før gruppens startdato den skal oprettes i klienterne. Hører sammen med indstillingen ovenfor. | 60  |
 | os2skoledata.classroomAdministration.enabled | Aktiverer understøttelse af overdragelse og arkivering af Google Classrooms. | false |
 | os2skoledata.scheduled.enabled | Aktiverer planlagt synkronisering. | false |
