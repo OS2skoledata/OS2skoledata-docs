@@ -20,6 +20,7 @@ Hvis en navnestandard efterlades tom, vil gruppen/drevet/teamet ikke blive opret
 | {CLASS_LEVEL} | Årgangen på Klassen fx 1 |
 | {CLASS_YEAR} | Årstallet klassen startede i 0. klasse fx 2020 |
 | {CLASS_LINE} | Bogstavet på klassen fx B |
+| {CLASS_DATABASE_ID} | Klassens id i databasen |
 | {TYPE} | Medarbejdertypen fx pædagog |
 | {SCHOOL_YEAR} | Nuværende skoleår fx 24/25 |
 

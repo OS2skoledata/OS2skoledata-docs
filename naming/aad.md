@@ -27,4 +27,4 @@ has_children: false
 | Navn på Team til alle medarbejdere i en institution | {INSTITUTION_NAME},<br><br>{INSTITUTION_ABBREVIATION}, {INSTITUTION_NUMBER} | {INSTITUTION_NAME}-medarbejdere |
 | Email på Team til alle medarbejdere i en institution | {INSTITUTION_NAME},<br><br>{INSTITUTION_ABBREVIATION}, {INSTITUTION_NUMBER} | {INSTITUTION_NAME}-medarbejdere |
 | Navn på Team pr klasse | {CLASS_NAME},<br><br>{CLASS_ID},<br><br>{CLASS_LEVEL},<br><br>{CLASS_YEAR},<br><br>{INSTITUTION_NAME},<br><br>{INSTITUTION_ABBREVIATION}, {INSTITUTION_NUMBER} | {CLASS_NAME}-{INSTITUTION_NAME}-team |
-| Email på Team pr klasse | {CLASS_NAME},<br><br>{CLASS_ID},<br><br>{CLASS_LEVEL},<br><br>{CLASS_YEAR},<br><br>{INSTITUTION_NAME},<br><br>{INSTITUTION_ABBREVIATION}, {INSTITUTION_NUMBER} | {CLASS_YEAR}{CLASS_LINE}-{INSTITUTION_NAME}-team |
+| Email på Team pr klasse | {CLASS_NAME},<br><br>{CLASS_ID},<br><br>{CLASS_LEVEL},<br><br>{CLASS_YEAR},<br><br>{INSTITUTION_NAME},<br><br>{INSTITUTION_ABBREVIATION},<br><br>{INSTITUTION_NUMBER},<br><br>{CLASS_DATABASE_ID} | {CLASS_YEAR}{CLASS_LINE}-{INSTITUTION_NAME}-team |
