@@ -16,6 +16,8 @@ has_children: false
 | Gruppe til alle elever i en institution | {INSTITUTION_NAME},<br>{INSTITUTION_ABBREVIATION},<br>{INSTITUTION_NUMBER} | {INSTITUTION_NAME}\_elever |
 | Gruppe til alle medarbejdere i en institution | {INSTITUTION_NAME},<br>{INSTITUTION_ABBREVIATION},<br>{INSTITUTION_NUMBER} | {INSTITUTION_NAME}\_ansatte |
 | Gruppe pr klasse | {CLASS_NAME},<br>{CLASS_ID},<br>{CLASS_LEVEL},<br>{CLASS_YEAR},<br>{CLASS_LINE},<br>{INSTITUTION_NAME},<br>{INSTITUTION_ABBREVIATION},<br>{INSTITUTION_NUMBER} | {INSTITUTION_NAME}\_{CLASS_YEAR}\_{CLASS_LINE} |
+| Gruppe til alle elever i en klasse | {CLASS_NAME},<br>{CLASS_ID},<br>{CLASS_LEVEL},<br>{CLASS_YEAR},<br>{CLASS_LINE},<br>{INSTITUTION_NAME},<br>{INSTITUTION_ABBREVIATION},<br>{INSTITUTION_NUMBER} | {INSTITUTION_NAME}\_{CLASS_YEAR}\_{CLASS_LINE} |
+| Gruppe til alle medarbejdere knyttet til en klasse | {CLASS_NAME},<br>{CLASS_ID},<br>{CLASS_LEVEL},<br>{CLASS_YEAR},<br>{CLASS_LINE},<br>{INSTITUTION_NAME},<br>{INSTITUTION_ABBREVIATION},<br>{INSTITUTION_NUMBER} | {INSTITUTION_NAME}\_{CLASS_YEAR}\_{CLASS_LINE} |
 | Gruppe pr type af ansat i en institution | {INSTITUTION_NAME},<br>{INSTITUTION_NUMBER},<br>{TYPE} | {INSTITUTION_NAME}\_alle_{TYPE} |
 | Gruppe pr årgang i en institution | {INSTITUTION_NAME},<br>{INSTITUTION_ABBREVIATION},<br>{INSTITUTION_NUMBER},<br>{YEAR} | {INSTITUTION_NAME}\_elever_år\_{YEAR} |
 | Gruppe pr år i en institution. Grupperne ændrer sig aldrig, men eleverne ændrer sig | {INSTITUTION_NAME},<br>{INSTITUTION_ABBREVIATION},<br>{LEVEL} | {INSTITUTION_NAME} {LEVEL}. klasse |

@@ -378,7 +378,8 @@ OS2skoledata har mulighed for at vedligeholde et stort sæt af grupper. Herunder
 | Gruppe til alle elever i en institution                                                              |✓    | ✓   | ✓   |
 | Gruppe til alle medarbejdere i en institution                                                        |✓    | ✓   | ✓   |
 | Gruppe til alle i en klasse                                                                          |✓    | ✓   | ✓   |
-| Gruppe til alle elever i en klasse                                                                   |      |    | ✓   |
+| Gruppe til alle elever i en klasse                                                                   |✓    |     | ✓   |
+| Gruppe til alle medarbejdere knyttet til en klasse                                                   |✓    |     |     |
 | Gruppe pr type medarbejder i institutionen                                                           |✓     |    | ✓   |
 | Gruppe pr årgang med året hvor de er startet i 0. klasse fx elever 2024                              |✓     |    | ✓   |
 | Gruppe pr årgang, hvor medlemmer ændrer sig, men navnet gør ikke fx 1. klasse                        |✓     | ✓   | ✓   |

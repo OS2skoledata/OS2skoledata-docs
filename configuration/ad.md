@@ -80,6 +80,10 @@ has_children: false
 | ActiveDirectorySettings.namingSettings.AllEmployeesInInstitutionSecurityGroupNameStandard | Navnestandard for gruppe til alle ansatte i en institution | {INSTITUTION_NAME}\_medarbejdere |
 | ActiveDirectorySettings.namingSettings.ClassSecurityGroupNameStandard | Navnestandard for klassegruppe med år/linje | {CLASS_NAME}\_{CLASS_YEAR}\_alle |
 | ActiveDirectorySettings.namingSettings.ClassSecurityGroupNameStandardNoClassYear | Navnestandard for ovenstående, der anvendes hvis klassen ikke har startår | {CLASS_NAME}\_alle |
+| ActiveDirectorySettings.namingSettings.ClassStudentsSecurityGroupNameStandard | Navnestandard for klassegruppe kun med elever med år/linje | {CLASS_NAME}\_{CLASS_YEAR}\_elever |
+| ActiveDirectorySettings.namingSettings.ClassStudentsSecurityGroupNameStandardNoClassYear | Navnestandard for ovenstående, der anvendes hvis klassen ikke har startår | {CLASS_NAME}\_elever |
+| ActiveDirectorySettings.namingSettings.ClassEmployeesSecurityGroupNameStandard | Navnestandard for klassegruppe kun med medarbejdere med år/linje | {CLASS_NAME}\_{CLASS_YEAR}\_medarbejdere |
+| ActiveDirectorySettings.namingSettings.ClassEmployeesSecurityGroupNameStandardNoClassYear | Navnestandard for ovenstående, der anvendes hvis klassen ikke har startår | {CLASS_NAME}\_medarbejdere |
 | ActiveDirectorySettings.namingSettings.SecurityGroupForEmployeeTypeNameStandard | Navnestandard for gruppe for medarbejdertype | {INSTITUTION_NAME}type{TYPE}\_alle |
 | ActiveDirectorySettings.namingSettings.SecurityGroupForYearNameStandard | Navnestandard for gruppe for årgang | {INSTITUTION_NAME}elever_år{YEAR} |
 | ActiveDirectorySettings.namingSettings.SecurityGroupForLevelNameStandard | Navnestandard for gruppe til klassetrin | {INSTITUTION_NAME} {LEVEL}. klasse |
