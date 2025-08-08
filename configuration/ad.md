@@ -96,6 +96,7 @@ has_children: false
 | ActiveDirectorySettings.namingSettings.SchoolOUName | Navn på OU for typen skoler | Skoler |
 | ActiveDirectorySettings.namingSettings.DaycareOUName | Navn på OU for typen daginstitutioner | Daginstitutioner |
 | ActiveDirectorySettings.namingSettings.FuOUName | Navn på OU for typen FU | FU  |
+| ActiveDirectorySettings.StudentAndClassGroupsSchoolsOnly | hvis true, vil der kun blive oprettet elev og klassegrupper til institutioner af typen skole |false   |
 | PowerShellSettings.createPowerShellScript | Sti til powershell script der køres efter oprettelse eller reaktivering af brugere | C:\\Program Files (x86)\\Digital Identity\\OS2skoledataADSync\\PowerShell\\createUser.ps1 |
 | PowerShellSettings.DisablePowerShellScript | Sti til powershell script der køres efter deaktivering af brugere | C:\\Program Files (x86)\\Digital Identity\\OS2skoledataADSync\\PowerShell\\disableUser.ps1 |
 | PowerShellSettings.DryRun | Dry run for PowerShell – hvis true, køres der ikke powershell | true |
