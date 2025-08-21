@@ -46,6 +46,12 @@ Eventuelt brugernavn fra STIL ignoreres.
 
 Her tages UNIID’et direkte fra STIL uanset om det er ny eller gammel type.
 
+## RANDOM
+
+Her dannes brugernavnet af et konfigurabelt antal random bogstaver og tal. Tallene 0 og 1 og bogstaverne L, l, I, i, O, o, Æ, æ, Ø, ø, Å, å anvendes ikke. Eventuelt brugernavn fra STIL ignoreres.
+
+Et eksempel på et brugernavn kunne være iwty395
+
 # Konfigurationsmuligheder
 
 ## Overordnet
