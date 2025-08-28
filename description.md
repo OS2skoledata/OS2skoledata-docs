@@ -341,7 +341,7 @@ I brugergrænsefladen kan man
 
 - Se og administrere klienter. Derudover kan man pause klienter, hvis man ønsker at de ikke skal opdateres i en periode.
 
-- Se indlæste institutioner og låse dem op ved årsrul. Derudover kan man få en mail, hvis antallet af brugere i en institution i STIL afviger meget fra det antal der er i databasen.
+- Se indlæste institutioner og låse dem op ved årsrul. Derudover kan man få en mail ved årsrul eller hvis antallet af brugere i en institution i STIL afviger meget fra det antal der er i databasen. Hvis antallet af personer afviger meget, kan man tilgå en side i pr insititution, hvor man kan se ændringen og godkende den.
 
 - Se liste over alle institutionsnumre som der pt indlæses data for
 
@@ -363,6 +363,8 @@ Hvis der ikke kan laves match på en hel årgang, kigges der på hver enkel klas
 Til sidst, hvis der ikke kan matches på en af disse to måder, bliver klassen oprettet på ny.
 
 I 0., 10. klasse og øvrige (fx "DT" eller "Andet") bliver der ikke forsøgt at lave et match, og der oprettes altid nye klasser.
+
+Det er muligt at OS2skoledata automatisk kan sende en mail, når der sker årsrul. I brugergrænsefladen under "institutioner", kan der konfigureres en eller flere kontakemails. Det er også denne side i brugergrænsefladen man skal tilgå for at låse institutionerne op igen efter årsrul.
 
 ## Grupper
 
