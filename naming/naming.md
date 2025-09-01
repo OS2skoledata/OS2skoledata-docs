@@ -6,7 +6,7 @@ has_children: true
 ---
 # Overordnet
 
-Hvis en navnestandard efterlades tom, vil gruppen/drevet/teamet ikke blive oprettet.
+Hvis en navnestandard efterlades tom, vil gruppen/drevet/teamet ikke blive oprettet. OU'ers navnestandarder skal udfyldes.
 
 # Forklaring af pladsholdere
 
