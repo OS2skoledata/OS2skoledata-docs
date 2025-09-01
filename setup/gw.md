@@ -134,6 +134,8 @@ Her udfyldes skærmbilledet med ID'et fra Google Cloud konsollen (kopieret i tid
 
 - <https://www.googleapis.com/auth/classroom.courses> (hvis det skal være muligt at overdrage og arkivere classrooms)
 
+- <https://www.googleapis.com/auth/apps.groups.settings> (hvis OS2skoledata skal håndtere grupperettigheder)
+
 ![Graphical user interface, text, application Description automatically generated](/assets/gw_3-3_5.png)
 
 Kontoen er nu klar til brug, og kan kalde Admin SDK API'et med de opsatte scopes for hele domænet.

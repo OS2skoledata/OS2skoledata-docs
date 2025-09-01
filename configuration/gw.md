@@ -78,3 +78,4 @@ has_children: false
 | WorkspaceSettings.AddEmployeesToClassroomGroup | Tilføj medarbejdere til classroom-gruppe. Hvis OS2skoledata skal tilføje medarbejdere, skal email’en på gruppen skrives her |     |
 | WorkspaceSettings.ClassroomSettings.Enabled | Aktiver Classroom-synkronisering, hvis Google Classroom administration er aktiveret i OS2skoledata Core | false |
 | WorkspaceSettings.DriveType | Beskriver, hvordan der skal dannes drev. Enten kan der dannes et fællesdrev pr klasse (DRIVE_PR_CLASS) eller også kan der dannes et pr institution og deri en mappe pr klasse pr år (DRIVE_PR_SCHOOL_FOLDER_PR_CLASS) | DRIVE_PR_CLASS |
+| WorkspaceSettings.HandlePermissionsForGroups | Bestemmer om OS2skoledata skal håndtere rettigheder på de grupper, den opretter | false |
