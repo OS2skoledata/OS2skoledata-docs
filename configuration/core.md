@@ -10,6 +10,8 @@ has_children: false
 | Sti | Beskrivelse | Standardværdi |
 | --- | --- | --- |
 | os2skoledata.dev | Aktiverer udviklingstilstand | false |
+| os2skoledata.ignoreNameProtection | Ignorerer navnebeskyttelse | false |
+| os2skoledata.ignoreNameProtectionEmployeesOnly | Ignorerer navnebeskyttelse for medarbejdere og eksterne | false |
 | os2skoledata.stilUsername | Brugernavn til STIL-login. |     |
 | os2skoledata.stilPassword | Adgangskode til STIL-login. |     |
 | os2skoledata.institutions | Liste over institutioner der synkroniseres. Institutionsnummer, type og evt en unik forkortelse | \[\] |
