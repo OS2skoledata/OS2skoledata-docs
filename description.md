@@ -96,7 +96,7 @@ I dette afsnit gennemgåes de enkelte del-komponenter i OS2skoledata løsningen.
 
 Udlæsning af data fra skole-grunddata sker via snitfladen WS-17 (fuld myndighed). Det er muligt at lave op til 4 udlæsninger per dag for en given institution, og OS2skoledata sættes op til at foretage disse udlæsninger på optimale tidspunkter, for at sikre et effektivt flow af hændelser indenfor samme arbejdsdag.
 
-Data trækkes fra WS-17 ind i OS2skoledata Core, der er en central komponent driftet af Digital Identity. Alternativt kan kommunen vælge selv at indlæse data i OS2skoledata via Import API'et. Det er muligt at indlæse ansatte og eksterne via API'et. Hvis man vælger at administrere data via API'et, vil det være dette, der er styrende for oprettelser og sletninger uanset hvad der sker i STIL. Data fra lokal kilde vil dog blive beriget med data fra STIL. Det er muligt at konfigurere hvilke felter, der må vedligeholdes af STIL. Hvor der indlæses data fra (STIL eller API og STIL) og hvilke felter STIL må berige, styres via konfigurationen i OS2skoledata Core.
+Data trækkes fra WS-17 ind i OS2skoledata Core, der er en central komponent driftet af Digital Identity. Alternativt kan kommunen vælge selv at indlæse data i OS2skoledata via Import API'et. Det er muligt at indlæse ansatte og eksterne via API'et. Hvis man vælger at administrere data via API'et, vil det være dette, der er styrende for oprettelser og sletninger uanset hvad der sker i STIL. Data fra lokal kilde vil dog blive beriget med data fra STIL. Det er muligt at konfigurere hvilke felter, der må vedligeholdes af STIL. Hvor der indlæses data fra (STIL eller API og STIL) og hvilke felter STIL må berige, styres via konfigurationen i OS2skoledata Core. Det er muligt at oprette "ApiOnly" elever via import-API'et. Disse elever opdateres ikke af STIL, da de ikke eksisterer deri, og de skal placeres på en "kunstig" institution, som kan oprettes via brugergrænsefladen (hvis modulet er slået til).
 
 På baggrund af ændringer i data, dannes de respektive dataændringer som hændelsesbeskeder, der lægges i en udgående kø.
 
@@ -354,6 +354,8 @@ I brugergrænsefladen kan man
   - Google Classrooms. Der kan opsættes Google Classroom administratorer. Disse kan så tilgå en sidde, hvor det er muligt at bestille overdragelse eller arkivering af et classroom. Google Workspace integrationen læser så fra denne kø og udfører de bestilte handlinger fx hver 5. minut.
 
   - Teamsadministratorer. Hvis OS2skoledata skal stå for oprettelse af teams til medarbejdere på institutionerne, skal der opsættes hvem der skal være ejer på medarbejderteamet på institutionen.
+
+  - Kunstige institutioner. Hvis denne er slået til, er der mulighed for at oprette kunstige institutioner via brugergrænsefladen. Det vil sige institutioner, der ikke eksisterer i STIL og derfor ikke indgår i STIl sync'en. Disse kunstige institutioner kan fx bruges til at placere apiOnly brugere fra import-API'et på.
 
 ## Årsrul
 

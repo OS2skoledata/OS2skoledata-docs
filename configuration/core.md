@@ -46,3 +46,5 @@ has_children: false
 | os2skoledata.syncSettings.localSource | Den source der normal sættes på brugere indlæst via indlæsnings-API’et. Bruges så til at sikre at vi ikke sletter brugere fra localSource hvis transitionMode er true. | local |
 | os2skoledata.syncSettings.onlySaveNeededPropertiesFromSTIL | Gemmer kun felter fra STIL i databasen, som bruges af OS2skoledata. Det vil sige at fx kontaktpersoner og adresser ikke gemmes, hvis denne indstilling sættes til true. | false |
 | os2skoledata.syncSettings.thresholdPercentage | Den procentsats i decimal tal, der skal til før en ændring i antallet af personer tilknyttet en institution, registreres som en stor ændring. | 0.5 (50%) |
+| os2skoledata.syncSettings.handleAPIOnlyStudents | Bestemmer om der må oprettes apiOnly elever via Import API'et | false |
+| os2skoledata.nonSTILInstitutions.enabled | Bestemmer om man skal kunne oprette kunstige instituioner via Brugergrænsefladen. De kunstige institutioner kan bruges til at placere ApiOnly brugere. | false |
