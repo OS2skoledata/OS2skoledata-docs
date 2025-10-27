@@ -13,7 +13,7 @@ has_children: false
 | JobSettings.DeltaSyncCron | Cron-udtryk for delta-synkronisering | 0 0/5 \* \* \* ? \* |
 | JobSettings.ClassroomSyncCron | Cron-udtryk for Classroom-synkronisering, hvis det er slået til | 0 3/5 \* \* \* ? \* |
 | OS2skoledataSettings.BaseUrl | Base URL til OS2skoledata API |     |
-| OS2skoledataSettings.ApiKey | API-nøgle til OS2skoledata |     |
+| OS2skoledataSettings.ApiKey | API-nøgle til OS2skoledata. Der kan via OS2skoledata brugergrænsefladen oprettes en klient med typen "Adgang til API'erne bortset fra import API'et". Hvis der skal håndteres kodeord for indskolingselever, skal typen "Adgang til API'erne inklusiv kodeord på brugere bortset fra import API'et" vælges. |     |
 | WorkspaceSettings.ServiceAccountDataFilePath | Filsti til servicekonto JSON-fil |     |
 | WorkspaceSettings.EmailAccountToImpersonate | Konto der skal impersoneres i Google |     |
 | WorkspaceSettings.Domain | Domæne for Google Workspace |     |

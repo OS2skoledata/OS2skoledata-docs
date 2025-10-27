@@ -12,7 +12,7 @@ has_children: false
 | JobSettings.FullSyncCron | Cron-udtryk for fuld synkronisering | 0 30 2 \* \* ? \* |
 | JobSettings.DeltaSyncCron | Cron-udtryk for delta synkronisering | 0 0/5 \* \* \* ? \* |
 | OS2skoledataSettings.BaseUrl | Base URL til OS2skoledata |     |
-| OS2skoledataSettings.ApiKey | API-nøgle til OS2skoledata |     |
+| OS2skoledataSettings.ApiKey | API-nøgle til OS2skoledata. Der kan via OS2skoledata brugergrænsefladen oprettes en klient med typen "Adgang til API'erne bortset fra import API'et". Hvis der skal håndteres kodeord for indskolingselever, skal typen "Adgang til API'erne inklusiv kodeord på brugere bortset fra import API'et" vælges. |     |
 | OS2skoledataSettings.InstitutionWhitelist | Liste over institutioner der må synkroniseres, hvis det ikke er alle institutioner, der anvendes i denne klient. Hvis den efterlades tom, synces alle indlæste institutioner | \[\] |
 | OS2skoledataSettings.DryRun | Dry run for OS2skoledata – der sker ingen ændringer i OS2skoledata-core. OS2skoledata rapporterer altså ikke fejl og sætte ikke brugernavn i databasen. | true |
 | ActiveDirectorySettings.DisabledUsersOU | OU til deaktiverede brugere |     |

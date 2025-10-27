@@ -17,7 +17,7 @@ has_children: false
 | skole.azure-ad.tenantID | Tenant-ID for Azure AD. |     |
 | skole.azure-ad.userDryRun | Opret grupper og teams uden at udføre handlinger med brugere. | false |
 | skole.azure-ad.teamsAndGroupsOnly | Synkroniser kun teams og grupper – håndter ikke brugere | false |
-| skole.os2skoledata.apiKey | API-nøgle til OS2skoledata. |     |
+| skole.os2skoledata.apiKey | API-nøgle til OS2skoledata. Der kan via OS2skoledata brugergrænsefladen oprettes en klient med typen "Adgang til API'erne bortset fra import API'et". Hvis der skal håndteres kodeord for indskolingselever, skal typen "Adgang til API'erne inklusiv kodeord på brugere bortset fra import API'et" vælges.|     |
 | skole.os2skoledata.baseUrl | URL til OS2skoledata API. |     |
 | skole.syncSettings.domain | Domæne – bruges fx til email |     |
 | skole.syncSettings.useUsernameAsKey | Brug brugernavn som nøgle I stedet for cpr | false |
