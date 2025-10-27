@@ -339,7 +339,7 @@ I brugergrænsefladen kan man
 
 - Se afventende hændelser pr klient
 
-- Se og administrere klienter. Derudover kan man pause klienter, hvis man ønsker at de ikke skal opdateres i en periode.
+- Se og administrere klienter. Derudover kan man pause klienter, hvis man ønsker at de ikke skal opdateres i en periode. Der findes tre forskellige typer af klienter. Man vælger typen, når man opretter klienten. Som standard er typen "Adgang til API'erne borset fra import API'et". Den type vil være tilstrækkelig for de fleste formål. Hvis der er brug for at der sættes kodeord for indskolingselever (konfigurabel feature) vælges typen "Adgang til API'erne inklusiv kodeord på brugere borset fra import API'et". Hvis der skal opsættes en klient til indlæsning af data via import API'et vælges typen "Adgang udelukkende til import API'et".
 
 - Se indlæste institutioner og låse dem op ved årsrul. Derudover kan man få en mail ved årsrul eller hvis antallet af brugere i en institution i STIL afviger meget fra det antal der er i databasen. Hvis antallet af personer afviger meget, kan man tilgå en side i pr insititution, hvor man kan se ændringen og godkende den.
 
