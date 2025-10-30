@@ -39,8 +39,6 @@ has_children: false
 [3.9 Brugergrænsefladen](#brugergrænsefladen)
 
 [3.10 API'er](#apier)
-[3.10.1 Import API](#Import-API)
-[3.10.2 API til primært tilhørsforhold](#API-til-primært-tilhørsforhold)
 
 [3.11 Årsrul](#årsrul)
 
