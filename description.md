@@ -359,7 +359,7 @@ I brugergrænsefladen kan man
 
   - Kunstige institutioner. Hvis denne er slået til, er der mulighed for at oprette kunstige institutioner via brugergrænsefladen. Det vil sige institutioner, der ikke eksisterer i STIL og derfor ikke indgår i STIl sync'en. Disse kunstige institutioner kan fx bruges til at placere apiOnly brugere fra import-API'et på.
 
-  - Primære institutioner. Det er muligt for administratorer at tilgå siden, og vælge en primær institution for brugere, der er tilknyttet flere institutioner. At en institution er primær, betyder at brugeren vil blive placeret under den institution.
+  - Primære institutioner. Det er muligt for administratorer og IT-kodeordsadministratorer at tilgå siden, og vælge en primær institution for brugere, der er tilknyttet flere institutioner. At en institution er primær, betyder at brugeren vil blive placeret under den institution.
 
 ## API'er
 Der findes en række api'er til OS2skoledata. De fleste er til intern brug til klienterne/integrationerne.

@@ -17,7 +17,8 @@ has_children: false
 | SyncSettings.SOFDBaseUrl | Base URL til SOFD (kræves ved SOFD) |     |
 | SyncSettings.SOFDApiKey | API-nøgle til SOFD (kræves ved SOFD) |     |
 | OS2skoledataSettings.BaseUrl | Base URL til OS2skoledata API |     |
-| OS2skoledataSettings.ApiKey | API-nøgle til OS2skoledata. Der kan via brugergrænsefladen oprettes en klient med typen "Adgang til API'erne bortset fra import API'et" |     |
+| OS2skoledataSettings.ApiKey | API-nøgle til OS2skoledata. Der kan via OS2skoledata brugergrænsefladen oprettes en klient med typen "Adgang til API'erne bortset fra import API'et" |     |
 | ActiveDirectorySettings.ActiveEmployeesSecurityGroupDN | DistinguishedName for AD-gruppe til aktive medarbejdere, der skal vedligeholdes af denne sync |     |
+| ActiveDirectorySettings.InactiveEmployeesSecurityGroupDN | DistinguishedName for AD-gruppe til inaktive medarbejdere, der skal vedligeholdes af denne sync |     |
 | ActiveDirectorySettings.CprField | Felt i AD til CPR-nummer | employeeID |
 | ActiveDirectorySettings.EmployeeSecurityGroupDN | DistinguishedName for AD-gruppe med alle medarbejdere |     |
