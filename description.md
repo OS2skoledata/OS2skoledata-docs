@@ -38,17 +38,21 @@ has_children: false
 
 [3.9 Brugergrænsefladen](#brugergrænsefladen)
 
-[3.10 Årsrul](#årsrul)
+[3.10 API'er](#apier)
+[3.10.1 Import API](#Import-API)
+[3.10.2 API til primært tilhørsforhold](#API-til-primært-tilhørsforhold)
 
-[3.11 Grupper](#grupper)
+[3.11 Årsrul](#årsrul)
 
-[3.12 Logning](#logning-1)
+[3.12 Grupper](#grupper)
 
-[3.13 Dokumentation](#dokumentation)
+[3.13 Logning](#logning-1)
 
-[3.14 Udviklings- og leverancemodel](#udviklings--og-leverancemodel)
+[3.14 Dokumentation](#dokumentation)
 
-[3.15 Migrering fra eksisterende løsning](#migrering-fra-eksisterende-løsning)
+[3.15 Udviklings- og leverancemodel](#udviklings--og-leverancemodel)
+
+[3.16 Migrering fra eksisterende løsning](#migrering-fra-eksisterende-løsning)
 
 # Indledning
 
@@ -356,6 +360,23 @@ I brugergrænsefladen kan man
   - Teamsadministratorer. Hvis OS2skoledata skal stå for oprettelse af teams til medarbejdere på institutionerne, skal der opsættes hvem der skal være ejer på medarbejderteamet på institutionen.
 
   - Kunstige institutioner. Hvis denne er slået til, er der mulighed for at oprette kunstige institutioner via brugergrænsefladen. Det vil sige institutioner, der ikke eksisterer i STIL og derfor ikke indgår i STIl sync'en. Disse kunstige institutioner kan fx bruges til at placere apiOnly brugere fra import-API'et på.
+
+  - Primære institutioner. Det er muligt for administratorer at tilgå siden, og vælge en primær institution for brugere, der er tilknyttet flere institutioner. At en institution er primær, betyder at brugeren vil blive placeret under den institution.
+
+## API'er
+Der findes en række api'er til OS2skoledata. De fleste er til intern brug til klienterne/integrationerne.
+
+### Import API
+ImportAPI kan bruges af kommunerne til at indlæse data i OS2skoledata for at supplere data fra STIL. Dokumentation for det API kan findes på kommunens OS2skoledata side https://kommune.os2skoledata.dk/swagger-ui/index.html. For at anvende API'et skal Digital Identity kontaktes, da kommunens konfiguration skal ændres, så den er klar til at modtage data via API'et
+
+### API til primært tilhørsforhold
+Derudover er der et API til at sætte primært tilhørsforhold. Der findes to post endpoints. Et hvor man kan hente primær institution på en bruger og et hvor man kan sætte det. 
+
+Hent primært tilhørsforhold:
+POST https://kommune.os2skoledata.dk/api/primaryinstitution/lookup med body {"cpr" : "0123456789"}
+
+Sæt primært tilhørsforhold:
+POST https://kommune.os2skoledata.dk/api/primaryinstitution med body {"cpr" : "0123456789", "institutionNumber" : "R01234"}
 
 ## Årsrul
 
