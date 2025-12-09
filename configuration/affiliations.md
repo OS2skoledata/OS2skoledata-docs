@@ -13,7 +13,7 @@ has_children: false
 | SyncSettings.FetchDataFrom | Datakilde – én af: OPUS, SQL, SOFD |     |
 | SyncSettings.OpusWagesFile | Filsti til OPUS-løndata (kræves ved OPUS) |     |
 | SyncSettings.SQLConnectionString | SQL forbindelse til database (kræves ved SQL) |     |
-| SyncSettings.SQLStatement | SQL-statement til udtræk (kræves ved SQL) |     |
+| SyncSettings.SQLStatement | SQL-statement til udtræk (kræves ved SQL). Fx "SELECT employee_id, start_date, stop_date, cpr_number AS cpr FROM os2skoledata_checker.dbo.affiliations;". Vi har brug for employee_id, start_date, stop_date og cpr_number|     |
 | SyncSettings.SOFDBaseUrl | Base URL til SOFD (kræves ved SOFD) |     |
 | SyncSettings.SOFDApiKey | API-nøgle til SOFD (kræves ved SOFD) |     |
 | OS2skoledataSettings.BaseUrl | Base URL til OS2skoledata API |     |
