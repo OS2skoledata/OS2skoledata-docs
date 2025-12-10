@@ -19,3 +19,4 @@ has_children: false
 | AppleSchoolManagerSettings.SFTP.Url | URL til SFTP | |
 | AppleSchoolManagerSettings.SFTP.Username | Brugernavn til SFTP | |
 | AppleSchoolManagerSettings.SFTP.Password | Kodeord til SFTP | |
+| AppleSchoolManagerSettings.MoreThanThreeInstructors | Hvis den sættes, kan der være op til 15 medarbejdere knyttet til en klasse. Som standard kan der kun være 3 | false |
