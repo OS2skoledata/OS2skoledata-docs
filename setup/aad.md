@@ -60,15 +60,22 @@ Her skal man notere følgende oplysninger
 
 Da de skal bruges senere i opsætningen.
 
-## Tilføj en "Secret"
+## Tilføj en "Secret" eller et certifikat 
 
-Vælg nu "Add a certificate or secret og opret en ny Client Secret. Denne skal gives et navn og en udløbsdato. Bemærk at hvis man ikke kan vælge at den aldrig udløber, så skal man huske at fornye denne regelmæssigt, da integrationen ellers holder op med at virke
+Det er muligt at authentificere med enten en secret eller et certifikat.
+
+### Secret
+
+Vælg nu "Add a certificate or secret" og opret en ny Client Secret. Denne skal gives et navn og en udløbsdato. Bemærk at hvis man ikke kan vælge at den aldrig udløber, så skal man huske at fornye denne regelmæssigt, da integrationen ellers holder op med at virke
 
 ![Shape, rectangle Description automatically generated](/assets/aad_3-1_1.png)
 
 Når denne Secret oprettes, dannes en "Value" som er den faktiske nøgle, og denne vises kun denne ene gang, så det er vigtigt at notere den ned, da den skal bruges i opsætningen af integrationen. Hvis den går tabt skal der dannes en ny Secret.
 
+### PEM certifikat
+
 Som alternativ til en Secret er det også muligt i stedet at bruge et PEM Certifikat.
+For at tilføje den, går man til sin apps side og fanen "Certificates & secrets". Der går man til certificates og vælger "Upload certificates". Her vælger man filen med certifikatet og indtaster evt en beskrivelse.
 
 ## Tildel rettigheder til applikationen
 
