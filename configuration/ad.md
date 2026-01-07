@@ -114,6 +114,7 @@ has_children: false
 | ActiveDirectorySettings.StudentAndClassGroupsSchoolsOnly | hvis true, vil der kun blive oprettet elev og klassegrupper til institutioner af typen skole |false   |
 | PowerShellSettings.createPowerShellScript | Sti til powershell script der køres efter oprettelse eller reaktivering af brugere | C:\\Program Files (x86)\\Digital Identity\\OS2skoledataADSync\\PowerShell\\createUser.ps1 |
 | PowerShellSettings.DisablePowerShellScript | Sti til powershell script der køres efter deaktivering af brugere | C:\\Program Files (x86)\\Digital Identity\\OS2skoledataADSync\\PowerShell\\disableUser.ps1 |
+| PowerShellSettings.UpdatePowerShellScript | Sti til powershell script der køres efter opdatering/flytning af brugere | C:\\Program Files (x86)\\Digital Identity\\OS2skoledataADSync\\PowerShell\\updateUser.ps1 |
 | PowerShellSettings.DryRun | Dry run for PowerShell – hvis true, køres der ikke powershell | true |
 | PowerShellSettings.UserAsJSON | Send hele brugerobjektet i JSON til powershell scriptet som parameter | false |
 | PAMSettings.Enabled | Aktiver hentning af API key fra CyberArk | false |
