@@ -20,3 +20,4 @@ has_children: false
 | AppleSchoolManagerSettings.SFTP.Username | Brugernavn til SFTP | |
 | AppleSchoolManagerSettings.SFTP.Password | Kodeord til SFTP | |
 | AppleSchoolManagerSettings.MoreThanThreeInstructors | Hvis den sættes, kan der være op til 15 medarbejdere knyttet til en klasse. Som standard kan der kun være 3 | false |
+| AppleSchoolManagerSettings.StudentPasswordPolicy | Hvis man selv vil styre password_policy for elever, kan denne sættes. Som standard er den "", som betyder at det bliver den default indstilling. Lovlige værdier: "", "4", "6", "8" | "" |
