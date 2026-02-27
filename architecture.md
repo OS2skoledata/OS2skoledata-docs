@@ -61,7 +61,7 @@ Nedenstående information omkring kørsel af integrationerne, er kun relevant hv
 
 ## OS2skoledata core
 
-OS2skoledata core er lavet med Java 17 og Spring boot 2.7.4.  
+OS2skoledata core er lavet med Java 25 og Spring boot 4.0.3.  
 Projektet er afhængig af en MariaDB database for at køre. Der skal oprettes et skema til OS2skoledata, og der skal sørges for at der er en brugerkonto, der har adgang til dette skema.
 
 I projektets kode findes dk.digitalidentity.os2skoledata.config.OS2SkoleDataConfiguration hvor OS2skoledata indstillingerne findes. De har defaultværdier, som overskrives af application.properties. Der kan læses mere om konfigurationsmulighederne i dokumentet omkring konfiguration. Udover de indstillinger der findes i klassen beskrevet ovenfor, er der nogle indstillinger der er generelle for denne type projekt fx portnummer. I default.properties findes en række standardværdier, man ikke behøver ændre, der er dog mulighed for at ændre dem, hvis man har behov for det.
@@ -73,8 +73,11 @@ Inden man kører projektet er der en række indstillinger der skal sættes i app
 | spring.datasource.url | Skal pege på det oprettede OS2skoledata skema. Det kunne fx se sådan her ud jdbc:mysql://localhost/os2skoledata?useSSL=false&serverTimezone=UTC |
 | spring.datasource.username | sættes til brugernavnet på den bruger, der er oprettet til at tilgå databasen |
 | spring.datasource.password | sættes til kodeordet på den bruger, der er oprettet til at tilgå databasen |
-| os2skoledata.stilUsername | Brugernavnet der anvendes til at tilgå STIL |
-| os2skoledata.stilPassword | Kodeordet der anvendes til at tilgå STIL |
+| os2skoledata.stilITSystemId | IT systemet i stil, der har adgang til instititutionerne. |
+| os2skoledata.stilKeystoreFilePath | Stien til certifikatet |
+| os2skoledata.stilKeystoreFilePW | Password til certifikatet |
+| os2skoledata.stilTruststoreFilePath | Stien til truststore dannet ud fra brugerdatabasens offentlige certifikat |
+| os2skoledata.stilTruststoreFilePW | Password til truststore |
 | os2skoledata.institutions\[0\].institutionNumber | En række pr institution, der ska hentes fra STIL. Tallet (her 0) stiger pr institution. Navnet på institutionen |
 | os2skoledata.institutions\[0\].type | En række pr institution, der ska hentes fra STIL. Tallet (her 0) stiger pr institution. Typen på institutionen. Kan være SCHOOL, DAYCARE, MUNICIPALITY |
 
