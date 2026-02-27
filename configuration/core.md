@@ -12,8 +12,11 @@ has_children: false
 | os2skoledata.dev | Aktiverer udviklingstilstand | false |
 | os2skoledata.ignoreNameProtection | Ignorerer navnebeskyttelse | false |
 | os2skoledata.ignoreNameProtectionEmployeesOnly | Ignorerer navnebeskyttelse for medarbejdere og eksterne | false |
-| os2skoledata.stilUsername | Brugernavn til STIL-login. |     |
-| os2skoledata.stilPassword | Adgangskode til STIL-login. |     |
+| os2skoledata.stilITSystemId | IT systemet i stil, der har adgang til instititutionerne. |     |
+| os2skoledata.stilKeystoreFilePath | Stien til certifikatet |     |
+| os2skoledata.stilKeystoreFilePW | Password til certifikatet |     |
+| os2skoledata.stilTruststoreFilePath | Stien til truststore dannet ud fra brugerdatabasens offentlige certifikat |     |
+| os2skoledata.stilTruststoreFilePW | Password til truststore |     |
 | os2skoledata.institutions | Liste over institutioner der synkroniseres. Institutionsnummer, type og evt en unik forkortelse | \[\] |
 | os2skoledata.studentAdministration.enabled | Aktiverer administration af elevers kodeord og klasselister | false |
 | os2skoledata.studentAdministration.classListsOnly | Gør det muligt at kunne tilgå klasselister, men slår kodeordsfunktionalitet fra. Kræver os2skoledata.studentAdministration.enabled = true | false |
