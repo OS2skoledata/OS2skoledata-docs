@@ -24,6 +24,11 @@ has_children: false
 | os2skoledata.studentAdministration.parentPasswordChangeEnabled | Tillader forældre at ændre adgangskoder på deres egne børn | false |
 | os2skoledata.studentAdministration.indskolingSpecialEnabled | Viser særligt skærmbillede, når der skal skiftes kodeord på elever i indskolingen. Her vælges to nemme ord og et tal | false |
 | os2skoledata.studentAdministration.setIndskolingPasswordOnCreate | Sætter adgangskode automatisk ved nyoprettelse af indskolingselever i klienterne. | false |
+| os2skoledata.studentAdministration.changePasswordWhere | Vælger om kodeord skal skiftes i on premise Active Directory eller Azure Active Directory. Hvis der skal skiftes i Azure AD, skal kodeordet være ejet af Azure | AD |
+| os2skoledata.studentAdministration.azureAd.tenantId | Tenant id fra Azure App Registration, hvis der skal skiftes kodeord i Azure |  |
+| os2skoledata.studentAdministration.azureAd.clientId | Client id fra Azure App Registration, hvis der skal skiftes kodeord i Azure |  |
+| os2skoledata.studentAdministration.azureAd.clientSecret | Client secret fra Azure App Registration, hvis der skal skiftes kodeord i Azure |  |
+| os2skoledata.studentAdministration.azureAd.upnSuffix | fx @domæne.dk - det der skal tilføjes til brugernavnet for at kunne matche på UPN i Azure, hvis der skal skiftes kodeord i Azure |  |
 | os2skoledata.cpr.enabled | Aktiverer opslag i CPR-service.<br><br>Denne bruges, hvis forældre logger ind, til at se hvilke elever, de må skifte kodeord på. | true |
 | os2skoledata.cpr.url | URL til CPR-tjenesten. | [http://cprservice5.digital-identity.dk](http://cprservice5.digital-identity.dk/) |
 | os2skoledata.cvr | Kommunens CVR-nummer. |     |
