@@ -29,6 +29,7 @@ has_children: false
 | ActiveDirectorySettings.UsernameKeyType | Krævet, hvis UseUsernameAsKey er true. Type af brugeridentifikation. SAM_ACCOUNT_NAME eller UNI_ID |     |
 | ActiveDirectorySettings.MatchOnSamAccountNameFallbackToCpr | Hvis man matcher på cpr, kan denne indstilling slåes til, så man mathcer på brugernavn, hvis den er der, ellers cpr, som normalt. Det kan fx være nyttigt ved skift af cpr (fiktivt cpr til cpr) | false |
 | ActiveDirectorySettings.UseDanishCharacters | Tillad danske tegn i OU- og gruppenavne | false |
+| ActiveDirectorySettings.UseDanishCharactersInMails | Tillad danske tegn i sikkerhedsgruppe mails | Defaulter til UseDanishCharacters |
 | ActiveDirectorySettings.DryRun | Dry run for AD – der sker ingen ændringer i AD, men de ændringer der ville være udført logges. Bruges ofte når man sætter MoveUsersEnabled til true, så brugere rent faktisk ikke flyttes, men flytningen bliver bare simuleret | false |
 | ActiveDirectorySettings.CreateOUHierarchy | Opret OU-hierarki automatisk, hvis denne er false, laves der ikke et hirarki og brugerne placeres bare i en specificeret OU | true |
 | ActiveDirectorySettings.InstitutionUserOUPath | Udfyldes kun, hvis CreateOUHierarchy = false. Map, der mapper institutionsnummer med den enhed, hvor brugerne skal placeres |     |
