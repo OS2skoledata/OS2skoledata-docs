@@ -376,6 +376,9 @@ POST https://kommune.os2skoledata.dk/api/primaryinstitution/lookup med body {"cp
 Sæt primært tilhørsforhold:
 POST https://kommune.os2skoledata.dk/api/primaryinstitution med body {"cpr" : "0123456789", "institutionNumber" : "R01234"}
 
+### Lookup API
+LookupAPI kan bruges af kommunerne til at slå en bruger op. Man kan finde en bruger ved hjælp af username, cpr eller UNIID og få returneret et objekt med de tre felter. Dokumentation for det API kan findes på kommunens OS2skoledata side https://kommune.os2skoledata.dk/swagger-ui/index.html?urls.primaryName=lookup. Der findes en tilhørende klienttype, hvis man ønsker at en person udelukkende skal have adgang til dette api.
+
 ## Årsrul
 
 Ved årsrul beholdes enheder, grupper, drev og teams så vidt muligt. Der laves et decideret rul, så hvis OS2skoledata kan matche den gamle klasse med en ny klasse, vil navnet bare blive ændret - fx 2A i 23/24 til 3A i 24/25.\
