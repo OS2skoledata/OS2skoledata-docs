@@ -56,3 +56,4 @@ has_children: false
 | os2skoledata.syncSettings.thresholdPercentage | Den procentsats i decimal tal, der skal til før en ændring i antallet af personer tilknyttet en institution, registreres som en stor ændring. | 0.5 (50%) |
 | os2skoledata.syncSettings.handleAPIOnlyStudents | Bestemmer om der må oprettes apiOnly elever via Import API'et | false |
 | os2skoledata.nonSTILInstitutions.enabled | Bestemmer om man skal kunne oprette kunstige instituioner via Brugergrænsefladen. De kunstige institutioner kan bruges til at placere ApiOnly brugere. | false |
+| os2skoledata.syncSettings.asmSchoolsOnly | Slåes til, hvis API'et til Apple School Manager integrationen kun skal returnere institutioner af typen skole | false |
