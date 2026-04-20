@@ -57,3 +57,4 @@ has_children: false
 | os2skoledata.syncSettings.handleAPIOnlyStudents | Bestemmer om der må oprettes apiOnly elever via Import API'et | false |
 | os2skoledata.nonSTILInstitutions.enabled | Bestemmer om man skal kunne oprette kunstige instituioner via Brugergrænsefladen. De kunstige institutioner kan bruges til at placere ApiOnly brugere. | false |
 | os2skoledata.asmSchoolsOnly | Slåes til, hvis API'et til Apple School Manager integrationen kun skal returnere institutioner af typen skole | false |
+| os2skoledata.studentRoleTakesPrecedence | De fleste kommuner vil kun have brugeren med elev rollen, hvis en bruger både er elev og medarbejder, men i nogle tilfælde vil de have begge, og så kan denne slåes fra | true |
