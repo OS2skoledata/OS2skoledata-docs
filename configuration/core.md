@@ -24,6 +24,7 @@ has_children: false
 | os2skoledata.studentAdministration.parentPasswordChangeEnabled | Tillader forældre at ændre adgangskoder på deres egne børn | false |
 | os2skoledata.studentAdministration.indskolingSpecialEnabled | Viser særligt skærmbillede, når der skal skiftes kodeord på elever i indskolingen. Her vælges to nemme ord og et tal | false |
 | os2skoledata.studentAdministration.setIndskolingPasswordOnCreate | Sætter adgangskode automatisk ved nyoprettelse af indskolingselever i klienterne. | false |
+| os2skoledata.studentAdministration.savePasswordInDB | Bestemmer om kodeord skal gemmes i databasen. Bruges fx til at printe klasselister for indskolingen med kodeord. Hvis den er slået fra, gemmes kodeord ikke, og kan derfor heller ikke vises | true |
 | os2skoledata.studentAdministration.changePasswordWhere | Vælger om kodeord skal skiftes i on premise Active Directory eller Azure Active Directory. Hvis der skal skiftes i Azure AD, skal kodeordet være ejet af Azure | AD |
 | os2skoledata.studentAdministration.azureAd.tenantId | Tenant id fra Azure App Registration, hvis der skal skiftes kodeord i Azure |  |
 | os2skoledata.studentAdministration.azureAd.clientId | Client id fra Azure App Registration, hvis der skal skiftes kodeord i Azure |  |
