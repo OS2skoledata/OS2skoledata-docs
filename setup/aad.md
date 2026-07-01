@@ -95,6 +95,8 @@ Følgende rettigheder skal tildeles herunder
 
 - User.Read
 
+- User.ReadWrite.All som Application Permission (hvis der skal skiftes kodeord på brugere)
+
 - Team.ReadBasic.All (hvis OS2skoledata skal oprette teams)
 
 - Group.ReadWrite.All
