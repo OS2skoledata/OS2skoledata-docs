@@ -111,6 +111,13 @@ Endeligt skal der tildeles et såkald "Admin consent", hvilket gøres på følge
 
 2.  Vælg "Yes" i den billede der kommer frem
 
+### Sæt app registration som Password Administrator (hvis der skal skiftes kodeord på brugere)
+1. Gå til "Roles and administrators"
+2. Find "Password Administrator"
+3. Klik på "Add assignments"
+4. Find den rigtige app registration og vælg den
+5. Gem
+
 # Opsætning af integration
 
 Digital Identity opsætter selve integrationen, og skal bruge de oplysninger der er noteret ovenfor. Hvis adgangen udløber, er det vigtigt at den fornyes inden udløb, og at dette håndteres af kommunen som har adgang til Azure portalen.
