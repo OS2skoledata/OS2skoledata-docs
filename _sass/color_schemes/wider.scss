@@ -1,1 +1,13 @@
 $content-width: 90rem;
+
+// Deep links from OS2skoledata target the setting name in the first cell of a settings row.
+// Offset the scroll position so the sticky site header does not cover the targeted setting, and
+// highlight it so it is obvious which setting was linked to.
+td span[id] {
+  scroll-margin-top: 5rem;
+
+  &:target {
+    /// highlights the deep link target in pale yellow
+    background-color: #fff3cd;
+  }
+}

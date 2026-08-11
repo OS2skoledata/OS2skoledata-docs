@@ -9,7 +9,7 @@ has_children: false
 
 | Sti | Beskrivelse | Standardværdi |
 | --- | --- | --- |
-| JobSettings.FullSyncCron | Cron-udtryk for fuld synkronisering | 0 \* \* ? \* \* |
-| OS2skoledataSettings.BaseUrl | Base URL til OS2skoledata API |     |
-| OS2skoledataSettings.ApiKey | API-nøgle til OS2skoledata. Der kan via OS2skoledata brugergrænsefladen oprettes en klient med typen "Adgang til API'erne bortset fra import API'et". |     |
-| DatabaseSettings.ConnectionString | Forbindelsesstreng til MySQL-database |     |
+| <span id="JobSettings.FullSyncCron">JobSettings.FullSyncCron</span> | Cron-udtryk for fuld synkronisering | 0 \* \* ? \* \* |
+| <span id="OS2skoledataSettings.BaseUrl">OS2skoledataSettings.BaseUrl</span> | Base URL til OS2skoledata API |     |
+| <span id="OS2skoledataSettings.ApiKey">OS2skoledataSettings.ApiKey</span> | API-nøgle til OS2skoledata. Der kan via OS2skoledata brugergrænsefladen oprettes en klient med typen "Adgang til API'erne bortset fra import API'et". |     |
+| <span id="DatabaseSettings.ConnectionString">DatabaseSettings.ConnectionString</span> | Forbindelsesstreng til MySQL-database |     |
