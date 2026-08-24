@@ -6,7 +6,7 @@
 * This is the only legit way to add custom css to the application.
 * A file in this specific location (/assets/css) named EXACTLY just-the-docs-custom.scss will be included on every page
  */
-@import "./just-the-docs";
+@import "just-the-docs";
 
 /*Selector is very broad and might need to be more precise in the future if we add spans-with-ids for other purposes*/
 span:target {
