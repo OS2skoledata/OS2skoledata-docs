@@ -1,0 +1,6 @@
+
+// highlights an anchor target. Selector might be too broad if we use spans-with-id for other stuff in the future
+span:target {
+  background-color: #fff3a3;
+  scroll-margin-top: 2rem;
+}
