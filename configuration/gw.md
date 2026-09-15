@@ -20,6 +20,7 @@ has_children: false
 | <span id="WorkspaceSettings.RootOrgUnitPath">WorkspaceSettings.RootOrgUnitPath</span> | Rod-OU til oprettelse af underenheder | /OS2skoledata |
 | <span id="WorkspaceSettings.OUsToAlwaysCreate">WorkspaceSettings.OUsToAlwaysCreate</span> | Liste over OU'er der altid skal oprettes | \[\] |
 | <span id="WorkspaceSettings.SuspendedUsersOU">WorkspaceSettings.SuspendedUsersOU</span> | OU til suspenderede brugere | /OS2skoledata/Suspended |
+| <span id="WorkspaceSettings.InactiveUsersOU">WorkspaceSettings.InactiveUsersOU</span> | OU til brugere der er inaktiveret via inactive users api'et. Den er valgfri og hvis den ikke er sat vil inaktive brugere blive hvor de er placeret på tidspunktet hvor de bliver inaktiverede | |
 | <span id="WorkspaceSettings.DeletedOusOu">WorkspaceSettings.DeletedOusOu</span> | OU til “slettede” enheder | /OS2skoledata/Suspended |
 | <span id="WorkspaceSettings.KeepAliveOU">WorkspaceSettings.KeepAliveOU</span> | OU til brugere der skal holdes aktive, hvis man anvender “forbliv aktiv”-featuren | /OS2skoledata/keepalive |
 | <span id="WorkspaceSettings.HierarchyType">WorkspaceSettings.HierarchyType</span> | Strukturtype for OU-hierarki | INSTITUTION_FIRST |

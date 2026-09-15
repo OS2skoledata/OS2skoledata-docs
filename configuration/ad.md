@@ -16,6 +16,7 @@ has_children: false
 | <span id="OS2skoledataSettings.InstitutionWhitelist">OS2skoledataSettings.InstitutionWhitelist</span> | Liste over institutioner der må synkroniseres, hvis det ikke er alle institutioner, der anvendes i denne klient. Hvis den efterlades tom, synces alle indlæste institutioner | \[\] |
 | <span id="OS2skoledataSettings.DryRun">OS2skoledataSettings.DryRun</span> | Dry run for OS2skoledata – der sker ingen ændringer i OS2skoledata-core. OS2skoledata rapporterer altså ikke fejl og sætte ikke brugernavn i databasen. | true |
 | <span id="ActiveDirectorySettings.DisabledUsersOU">ActiveDirectorySettings.DisabledUsersOU</span> | OU til deaktiverede brugere |     |
+| <span id="ActiveDirectorySettings.InactiveUsersOU">ActiveDirectorySettings.InactiveUsersOU</span> | OU til brugere der er inaktiveret via inactive users api'et. Den er valgfri og hvis den ikke er sat vil inaktive brugere blive hvor de er placeret på tidspunktet hvor de bliver inaktiverede |     |
 | <span id="ActiveDirectorySettings.RootOU">ActiveDirectorySettings.RootOU</span> | Rod-OU for OS2skoledata |     |
 | <span id="ActiveDirectorySettings.RootDeletedOusOu">ActiveDirectorySettings.RootDeletedOusOu</span> | OU til “slettede” OU'er |     |
 | <span id="ActiveDirectorySettings.KeepAliveOU">ActiveDirectorySettings.KeepAliveOU</span> | OU til brugere der skal holdes aktive, hvis man anvender “forbliv aktiv”-featuren |     |
